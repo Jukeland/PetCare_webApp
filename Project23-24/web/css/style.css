@@ -1,0 +1,108 @@
+
+
+.buttons{
+    align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Papyrus, fantasy;
+  font-size: 50px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.interest_list{
+    padding: 15px;
+}
+
+.black_div{
+    background-color: black; 
+} 
+
+.headers{
+    font-size:50px;
+    margin: auto;
+    width: fit-content;
+    font-family: Papyrus, fantasy;
+    background: -webkit-linear-gradient(#AF40FF, #5B42F3, #00DDEB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#title{
+    text-align: center;
+    font-size: 72px; 
+}
+
+.nav_list{
+    display: inline;
+    padding: 50px;
+}
+
+#navigator{
+  margin: 0;
+  text-align: left;
+  font-size: 50px;
+}
+
+.text{
+    font-size: 30px;
+    font-family: Papyrus, fantasy;
+} 
+
+#grade_table{
+    font-family: Papyrus, fantasy;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.other_headers{
+    font-size:40px;
+    text-align: left;
+    font-family: Papyrus, fantasy;
+    background: -webkit-linear-gradient(#AF40FF, #5B42F3, #00DDEB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-instagram{
+    background: #9a0dd1;
+    color: white;
+}
+
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}

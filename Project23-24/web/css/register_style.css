@@ -1,0 +1,105 @@
+
+
+#formWrapper{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+
+    text-align: center;
+    margin:auto;
+    font-family: fantasy;
+    font-size: 20px;
+    
+    
+}
+
+#hiddenForm{
+    height: fit-content;
+}
+
+#hideShow{
+    width:3cm;
+}
+
+.warnings{
+    color:red;
+}
+
+#specification{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#login_wrapper{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+
+    text-align: center;
+    margin:auto;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+#reg_pet{
+    margin-right: 100px;
+}
+
+#up_pet{
+    margin-left: 100px;
+}
+
+#book_area{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+
+    text-align: center;
+    margin:auto;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+#review_area{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+
+    text-align: center;
+    margin:auto;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+#review_name{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+
+    text-align: center;
+    margin:auto;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+#login_wrapper{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+
+    text-align: center;
+    margin:auto;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+#login_msg{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+
+    text-align: center;
+    margin:auto;
+    font-family: fantasy;
+    font-size: 20px;
+}

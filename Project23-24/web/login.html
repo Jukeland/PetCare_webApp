@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Antonis Chliaras">
+    <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0">
+    <title>Pet Care</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/register_style.css">
+    <script src="js/myScript.js"></script>
+    <script src="js/login.js" ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        tr th {
+            font-weight: bold
+        }
+
+        h3 {
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+        table {
+            margin-bottom: 150px;
+            width: 100%;
+        }
+    </style>
+  </head>
+
+  <body>
+
+    <div>
+        <div>
+          <header class="headers" id="title">
+            <h1>Pet Care</h1>
+          </header>
+        </div>
+    
+    
+        <div class="black_div">
+          <nav id="navigator">
+            <ul>
+              <li id="home" class="nav_list headers"><a href="index.html">Home</a></li>
+              <li id="register" class="nav_list headers"><a href="register.html">Register</a></li>
+              <li id="login" class="nav_list headers"><a href="login.html">Login</a></li>
+              <li id="keepers_table" class="nav_list headers"><a href="jsp/keepers_table_page.jsp">Pet Keepers</a></li>
+              <li id="logout" class="nav_list headers"></li>
+              <li id="profile" class="nav_list headers"></li>
+              <li id="pet" class="nav_list headers"></li>
+              <li id="avail_keepers" class="nav_list headers"></li>
+              <li id="bookings" class="nav_list headers"></li>
+              <li id="reviews" class="nav_list headers"></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    
+    
+
+      <div id="login_wrapper">
+          <form id="login_form" name="login_form" >
+            <label>Username:</label>
+            <input id="user" name="username"  
+                required="required">
+
+            <br>
+            <br>
+
+            <label>Password:</label>
+            <input type="password" id="pwd" 
+                name="password" 
+                required="required">
+
+            <br>
+
+            <button type="button" id="hideShow" onclick="changeVisibility()">Show Password</button>
+
+            <br>
+            <br>
+
+            <input type="button" value="Login" onclick="loginPOST()">
+
+        </form>
+      </div>
+      
+      <br>
+      
+      <div id="book_area"></div>
+      <div id="review_name"></div>
+      <div id="review_area"></div>
+      
+    <p id="login_msg"></p>
+
+  </body>
+</html>

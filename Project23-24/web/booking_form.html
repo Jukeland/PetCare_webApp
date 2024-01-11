@@ -1,0 +1,38 @@
+<div id="book_wrapper">
+    
+<h3 id="who"></h3>    
+
+<script>
+    show_book_msg('who', 'dummy');
+</script>
+    
+<form id="book_form">
+
+    <label for="fromdate">*From Date:</label>
+    <input type="date" id="fromdate" name="fromdate"
+        value="2024-01-01"
+        min="2024-01-01" max="2030-12-31"
+        required>
+    
+    <br>
+    <br>
+    
+    <label for="todate">*To Date:</label>
+    <input type="date" id="todate" name="todate"
+        value="2024-01-01"
+        min="2024-01-01" max="2030-12-31"
+        required onchange="show_final_price()">
+    
+    <br>
+
+    <p id="final_price"></p>
+
+    <br>
+    
+    <input type="button" value="Book Keeper" onclick="bookPOST()">
+    
+</form>    
+    
+<p id="book_msg"></p>
+    
+</div>

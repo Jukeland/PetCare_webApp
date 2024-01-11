@@ -1,0 +1,69 @@
+<div id="pet_form_wrapper">
+<form id="pet_form">
+
+    <p>Select your pet's type:</p>
+    <input type="radio" id="cat" name="type" value="cat" required>
+    <label for="cat">Cat</label><br>
+    <input type="radio" id="dog" name="type" value="dog" required>
+    <label for="dog">Dog</label><br>
+    
+    <br>
+    <br>
+    
+    <p>Select your pet's gender:</p>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+    <input type="radio" id="fmale" name="gender" value="female" required>
+    <label for="fmale">Female</label><br>
+    
+    <br>
+    <br>
+    
+    <label for="pet_id">Pet Id:</label>
+    <input id="pet_id" name="pet_id" required>
+    
+    <br>
+    <br>
+    
+    <label for="name">Name:</label>
+    <input id="name" name="name" required>
+    
+    <br>
+    <br>
+    
+    <label for="breed">Breed:</label>
+    <input id="breed" name="breed" required>
+    
+    <br>
+    <br>
+    
+    <label for="birthyear">Birthyear:</label>
+    <input id="birthyear" name="birthyear" 
+        pattern="[0-9]{4}" required>
+    
+    <br>
+    <br>
+    
+    <label for="weight">Weight:</label>
+    <input id="weight" name="weight" required>
+    
+    <br>
+    <br>
+    
+    <label for="desc">Description:</label>
+    <input id="desc" name="description" required>
+    
+    <br>
+    <br>
+    
+    <label for="photo">Photo Link:</label>
+    <input id="photo" name="photo" required>
+    
+    <br>
+    <br>
+    
+    <input type="button" value="Submit" onclick="choose_opCode()">
+    
+</form>
+<p id="ajax_msg"></p>    
+</div>
